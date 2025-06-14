@@ -1,0 +1,89 @@
+{
+  "contextSuggestions": [
+    {
+      "key": "transform",
+      "values": [
+        "position", "localPosition", "rotation", "localRotation", "eulerAngles", 
+        "localScale", "parent", "childCount", "DetachChildren", "Find", 
+        "GetSiblingIndex", "SetParent", "Translate", "Rotate", "LookAt"
+      ]
+    },
+    {
+      "key": "rigidbody",
+      "values": [
+        "velocity", "angularVelocity", "mass", "useGravity", "isKinematic", 
+        "AddForce", "AddTorque", "MovePosition", "MoveRotation", "drag", 
+        "angularDrag", "Sleep", "WakeUp"
+      ]
+    },
+    {
+      "key": "gameobject",
+      "values": [
+        "SetActive", "activeSelf", "activeInHierarchy", "AddComponent", 
+        "GetComponent", "GetComponentInChildren", "GetComponentInParent", 
+        "CompareTag", "layer", "tag", "transform", "name"
+      ]
+    },
+    {
+      "key": "Input",
+      "values": [
+        "GetKey", "GetKeyDown", "GetKeyUp", "GetMouseButton", 
+        "GetMouseButtonDown", "GetAxis", "GetAxisRaw", "mousePosition"
+      ]
+    },
+    {
+      "key": "Camera",
+      "values": [
+        "main", "ScreenToWorldPoint", "WorldToScreenPoint", "ScreenPointToRay", 
+        "fieldOfView", "orthographic", "backgroundColor", "clearFlags"
+      ]
+    },
+    {
+      "key": "Mathf",
+      "values": [
+        "Sin", "Cos", "Tan", "Abs", "Clamp", "Clamp01", "Lerp", "LerpUnclamped", 
+        "MoveTowards", "PingPong", "Pow", "Sqrt", "Round", "Floor", "Ceil"
+      ]
+    },
+    {
+      "key": "Vector3",
+      "values": [
+        "zero", "one", "up", "down", "left", "right", "forward", "back", 
+        "normalized", "magnitude", "sqrMagnitude", "Distance", "Lerp", 
+        "Cross", "Dot", "Angle"
+      ]
+    },
+    {
+      "key": "quaternion",
+      "values": [
+        "identity", "Euler", "AngleAxis", "LookRotation", "Slerp", 
+        "Normalize", "Inverse", "FromToRotation"
+      ]
+    },
+    {
+      "key": "Time",
+      "values": [
+        "deltaTime", "fixedDeltaTime", "time", "timeSinceLevelLoad", 
+        "unscaledTime", "unscaledDeltaTime", "realtimeSinceStartup"
+      ]
+    },
+    {
+      "key": "Debug",
+      "values": [
+        "Log", "LogWarning", "LogError", "DrawLine", "DrawRay", "Break"
+      ]
+    }
+  ],
+  "defaultSuggestions": [
+    "using", "namespace", "class", "void", "public", "private", "protected",
+    "static", "new", "return", "if", "else", "for", "while", "foreach", "switch", 
+    "case", "break", "continue", "try", "catch", "finally", "null", "true", "false",
+    "int", "float", "double", "bool", "string", "var", "List", "Dictionary","Quaternion", 
+    "SerializeField", "GetComponent", "Start", "Update", "FixedUpdate", "LateUpdate", "Awake", "OnEnable", "OnDisable",
+    "OnTriggerEnter", "OnTriggerExit", "OnCollisionEnter", "OnCollisionExit", 
+    "Instantiate", "Destroy", "FindObjectOfType", "FindGameObjectsWithTag", 
+    "CompareTag", "SetActive",
+    "Transform", "rigidbody", "Gameobject", "Input", "Camera", 
+    "Mathf", "Vector3", "Quaternion", "Time", "Debug"
+  ]
+}
